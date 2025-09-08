@@ -1,0 +1,16 @@
+{
+  "name": "Kanstar Bluechef - Premium Electrical Appliances",
+  "short_name": "Kanstar Bluechef",
+  "description": "Discover premium range of BLDC fans, ceiling fans, and electrical appliances",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#dc2626",
+  "icons": [
+    {
+      "src": "/lovable-uploads/d7081175-b511-492e-b638-ffed2107f3d4.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
