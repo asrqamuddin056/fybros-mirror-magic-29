@@ -43,32 +43,6 @@ const Contact = () => {
               </div>
             </div>
             
-            <div className="bg-card p-8 rounded-lg">
-              <h2 className="text-2xl font-bold text-primary mb-6">Send us a Message</h2>
-              <form className="space-y-4">
-                <input 
-                  type="text" 
-                  placeholder="Your Name" 
-                  className="w-full p-3 bg-background border border-border rounded-lg text-foreground"
-                />
-                <input 
-                  type="email" 
-                  placeholder="Your Email" 
-                  className="w-full p-3 bg-background border border-border rounded-lg text-foreground"
-                />
-                <textarea 
-                  placeholder="Your Message" 
-                  rows={5}
-                  className="w-full p-3 bg-background border border-border rounded-lg text-foreground"
-                ></textarea>
-                <button 
-                  type="submit" 
-                  className="w-full bg-secondary text-secondary-foreground hover:bg-primary hover:text-primary-foreground py-3 rounded-lg transition-colors"
-                >
-                  Send Message
-                </button>
-              </form>
-            </div>
           </div>
         </div>
       </main>
