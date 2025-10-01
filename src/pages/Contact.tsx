@@ -13,7 +13,7 @@ const Contact = () => {
             Contact Us
           </h1>
           
-          <div className="grid md:grid-cols-2 gap-12 mt-16">
+          <div className="flex flex-col gap-12 mt-16 max-w-2xl mx-auto">
             <div>
               <h2 className="text-2xl font-bold text-primary mb-6">Get in Touch</h2>
               <div className="space-y-6">
