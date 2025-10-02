@@ -36,9 +36,6 @@ export const Header = () => {
             <Link to="/about" className="text-foreground hover:text-primary transition-colors">
               About Us
             </Link>
-            <Link to="/media" className="text-foreground hover:text-primary transition-colors">
-              Media
-            </Link>
             <Link to="/contact" className="text-foreground hover:text-primary transition-colors">
               Contact Us
             </Link>
@@ -67,9 +64,6 @@ export const Header = () => {
               </Link>
               <Link to="/about" className="text-foreground hover:text-primary px-4 py-2">
                 About Us
-              </Link>
-              <Link to="/media" className="text-foreground hover:text-primary px-4 py-2">
-                Media
               </Link>
               <Link to="/contact" className="text-foreground hover:text-primary px-4 py-2">
                 Contact Us
