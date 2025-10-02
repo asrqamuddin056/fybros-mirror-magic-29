@@ -1,8 +1,10 @@
 # Kanstar Bluechef - Premium Electrical Appliances
 
-## 🚀 Vercel Deployment Ready
+## 🚀 Ready to Host - Zero Configuration Needed
 
-This project is fully optimized for Vercel deployment with zero configuration needed.
+This project is fully optimized and ready to deploy on Vercel, Netlify, or any hosting platform.
+
+### 📖 **[CLICK HERE FOR STEP-BY-STEP HOSTING GUIDE →](./HOSTING.md)**
 
 ### Quick Deploy to Vercel
 
