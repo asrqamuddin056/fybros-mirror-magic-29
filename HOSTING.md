@@ -45,29 +45,39 @@ git push -u origin main
 
 ---
 
-## Option 3: GitHub Pages
+## Option 3: GitHub Pages (With Custom Domain)
 
-### Step 1: Update vite.config.ts
-Add base path:
-```typescript
-export default defineConfig({
-  base: '/your-repo-name/',  // Add this line
-  // ... rest of config
-})
-```
+### Step 1: Update CNAME file
+**File:** `public/CNAME`
+Replace `yourdomain.com` with your actual domain (e.g., `www.kanstarbluechef.com`)
 
-### Step 2: Deploy
+### Step 2: Push to GitHub
 ```bash
-npm run build
-npm install -g gh-pages
-gh-pages -d dist
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin YOUR_GITHUB_REPO_URL
+git push -u origin main
 ```
 
 ### Step 3: Enable GitHub Pages
 1. Go to your GitHub repository
-2. Settings → Pages
-3. Source: **gh-pages branch**
-4. ✅ Done! Your site is live at `https://yourusername.github.io/your-repo-name/`
+2. **Settings** → **Pages**
+3. **Source**: Select **GitHub Actions**
+4. The site will automatically deploy on every push to main branch
+
+### Step 4: Configure Custom Domain
+1. In **Settings** → **Pages** → **Custom domain**
+2. Enter your domain (e.g., `www.kanstarbluechef.com`)
+3. Click **Save**
+4. In your domain provider's DNS settings, add:
+   - **Type**: CNAME
+   - **Name**: www (or @ for apex domain)
+   - **Value**: `yourusername.github.io`
+5. Wait 5-10 minutes for DNS to propagate
+6. ✅ Done! Your site is live at your custom domain
+
+**Note:** GitHub Actions will automatically build and deploy your site on every push to the main branch.
 
 ---
 
