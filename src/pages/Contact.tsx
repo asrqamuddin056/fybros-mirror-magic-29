@@ -1,10 +1,8 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Mail, Phone, MapPin } from "lucide-react";
-
 const Contact = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       <Header />
       
       <main className="py-20 px-4">
@@ -29,7 +27,7 @@ const Contact = () => {
                   <Phone className="h-6 w-6 text-primary" />
                   <div>
                     <h3 className="font-semibold text-foreground">Phone</h3>
-                    <p className="text-muted-foreground">+91 98765 43210</p>
+                    <p className="text-muted-foreground">+91 81250 60673</p>
                   </div>
                 </div>
                 
@@ -62,19 +60,13 @@ const Contact = () => {
               </button>
             </div>
             <div className="flex justify-center">
-              <img 
-                src="/lovable-uploads/97b455c6-31ac-4dd5-896a-ca82d36a14e9.png" 
-                alt="Partnership Handshake" 
-                className="rounded-lg max-w-full h-auto"
-              />
+              <img src="/lovable-uploads/97b455c6-31ac-4dd5-896a-ca82d36a14e9.png" alt="Partnership Handshake" className="rounded-lg max-w-full h-auto" />
             </div>
           </div>
         </div>
       </section>
       
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default Contact;
