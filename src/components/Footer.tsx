@@ -106,9 +106,6 @@ Jeedimetla Hyderabad-55,Telengana</span>
                 <Instagram className="h-6 w-6" />
               </a>
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Twitter className="h-6 w-6" />
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
                 <Youtube className="h-6 w-6" />
               </a>
             </div>
