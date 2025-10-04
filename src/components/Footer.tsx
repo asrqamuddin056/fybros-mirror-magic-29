@@ -91,7 +91,6 @@ Jeedimetla Hyderabad-55,Telengana</span>
             <div className="space-y-2">
               <a href="/products" className="block text-muted-foreground hover:text-primary transition-colors">Products</a>
               <a href="/about" className="block text-muted-foreground hover:text-primary transition-colors">About Us</a>
-              <a href="/media" className="block text-muted-foreground hover:text-primary transition-colors">Media</a>
               <a href="/contact" className="block text-muted-foreground hover:text-primary transition-colors">Contact</a>
             </div>
           </div>
