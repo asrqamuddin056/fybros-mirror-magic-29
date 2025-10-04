@@ -76,7 +76,7 @@ Jeedimetla Hyderabad-55,Telengana</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-6 w-6 text-primary" />
-                <span className="text-muted-foreground">+91 8125060673</span>
+                <span className="text-muted-foreground">+91 81250 60673</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-6 w-6 text-primary" />
